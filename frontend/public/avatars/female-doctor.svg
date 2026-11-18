@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bgFemale" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ecfdf5"/>
+      <stop offset="100%" stop-color="#a7f3d0"/>
+    </linearGradient>
+    <linearGradient id="skinFemale" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fed7aa"/>
+      <stop offset="100%" stop-color="#fdba74"/>
+    </linearGradient>
+    <linearGradient id="scrubFemale" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="100" fill="url(#bgFemale)"/>
+
+  <!-- Body / White Doctor Lab Coat -->
+  <path d="M42 200 C42 155 70 142 100 142 C130 142 158 155 158 200 Z" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  
+  <!-- Medical V-Neck Scrub inside (Emerald Green) -->
+  <polygon points="85,142 115,142 100,175" fill="url(#scrubFemale)"/>
+  
+  <!-- Lab Coat Lapels -->
+  <path d="M72 144 L88 175 L75 200" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <path d="M128 144 L112 175 L125 200" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <!-- Stethoscope around neck -->
+  <path d="M80 146 C80 178 95 190 95 190 C95 190 105 190 120 146" fill="none" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="95" cy="192" r="7" fill="#64748b" stroke="#1e293b" stroke-width="2"/>
+  <circle cx="95" cy="192" r="3" fill="#cbd5e1"/>
+
+  <!-- Neck -->
+  <rect x="89" y="116" width="22" height="28" rx="6" fill="url(#skinFemale)"/>
+
+  <!-- Head / Face -->
+  <ellipse cx="100" cy="94" rx="32" ry="38" fill="url(#skinFemale)"/>
+
+  <!-- Hair (Female - Professional pulled back/shoulder bob) -->
+  <path d="M60 115 C54 85 62 50 100 48 C138 50 146 85 140 115 C132 135 125 125 125 105 C125 78 118 64 100 64 C82 64 75 78 75 105 C75 125 68 135 60 115 Z" fill="#3e2723"/>
+  <path d="M66 85 C64 68 76 50 100 50 C124 50 136 68 134 85 C130 68 116 62 100 62 C84 62 70 68 66 85 Z" fill="#271510"/>
+
+  <!-- Ears & Earrings -->
+  <ellipse cx="68" cy="95" rx="5" ry="8" fill="url(#skinFemale)"/>
+  <ellipse cx="132" cy="95" rx="5" ry="8" fill="url(#skinFemale)"/>
+  <circle cx="68" cy="100" r="2" fill="#f59e0b"/>
+  <circle cx="132" cy="100" r="2" fill="#f59e0b"/>
+
+  <!-- Eyes & Eyebrows -->
+  <path d="M78 82 Q86 78 92 82" fill="none" stroke="#271510" stroke-width="2" stroke-linecap="round"/>
+  <path d="M108 82 Q114 78 122 82" fill="none" stroke="#271510" stroke-width="2" stroke-linecap="round"/>
+  
+  <ellipse cx="85" cy="89" rx="4" ry="4" fill="#3e2723"/>
+  <circle cx="86.5" cy="87.5" r="1.5" fill="#ffffff"/>
+  
+  <ellipse cx="115" cy="89" rx="4" ry="4" fill="#3e2723"/>
+  <circle cx="116.5" cy="87.5" r="1.5" fill="#ffffff"/>
+
+  <!-- Nose -->
+  <path d="M99 90 L98 99 L102 99" fill="none" stroke="#ea580c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Friendly Smile with Lip Color -->
+  <path d="M89 108 Q100 118 111 108" fill="none" stroke="#e11d48" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M92 110 Q100 115 108 110" fill="#fda4af"/>
+</svg>
