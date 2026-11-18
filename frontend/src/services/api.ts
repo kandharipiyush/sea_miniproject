@@ -1,6 +1,14 @@
 // CareNex API Client
 
-const API_BASE = '/api';
+const getBaseUrl = (): string => {
+  const envUrl = (import.meta as { env?: { VITE_API_BASE_URL?: string } }).env?.VITE_API_BASE_URL;
+  if (envUrl && typeof envUrl === 'string') {
+    return `${envUrl.replace(/\/$/, '')}/api`;
+  }
+  return '/api';
+};
+
+const API_BASE = getBaseUrl();
 
 export interface User {
   id: string;
